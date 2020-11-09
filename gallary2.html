@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script><script> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({
+      left: '350px',
+      opacity: '0.5',
+      height: '150px',
+      width: '150px'
+    });
+  });
+});
+</script> 
+
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}#gallary{
+	margin: 10px 50px;
+}
+#gallary img{
+	width: 230px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 2s;}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Gallary</div>
+<div id="panel">Welcome to vshoes!</div>
+
+</body>
+
+<button>Start Animation</button>
+</html>
+<div class="gallary">
+	<a href="bata.jpg" ></a><img src="bata.jpg">
+	<a href="bata2.jpg" ></a><img src="bata2.jpg">
+	
+	<a href="woodland.jpg" ></a><img src="woodland.jpg">
+	<a href="redchiff.jpg" ></a><img src="redchiff.jpg">
+	<a href="denim.jpg" ></a><img src="denim.jpg">
+	<a href="puma.jpg "></a><img src="puma.jpg">
+	<a href="lee cooper.jpg" ></a><img src="lee cooper.jpg">
+	<a href="Mrf.jpg" ></a><img src="Mrf.jpg">
+	
+	</div>
+	

@@ -1,0 +1,22 @@
+body{
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+    color: forestgreen;
+    margin: 30px 0 50px;
+}
+.gallary{
+	margin: 10px 50px;
+}
+.gallary img{
+	width: 230px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 2s;
+}
+.gallary img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+	
+}
